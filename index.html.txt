@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Raul</title>
+    <link rel="stylesheet" href="style.css"> <!-- Integração do CSS -->
+</head>
+ 
+<body style = "background-color: rgba(0, 0, 0, 0.548);">
+    <h1 style="color: rgb(255, 255, 255);">Formulario de ajuda</h1>
+    <h2 style="color: rgb(255, 255, 255);">Preencha o formulario para ajudar um aluno nessecitado</h2>
+ 
+    <form>
+        <fieldset>
+        <p style="color: rgb(255, 255, 255);">Escreva aqui seu nome</p>
+        <label for="nome"style="color: rgb(255, 255, 255);">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="escreva seu nome" required><br><br>
+ 
+        <label for="sobrenome" style="color: rgb(255, 255, 255);">Sobrenome:</label>
+        <input type="text" type="legend" id="sobrenome" name="sobrenome" placeholder="escreva seu sobrenome"><br><br>
+ 
+        <label for="email" style="color: rgb(255, 255, 255);" >Email:</label>
+        <input type="email" id="email" name="email" placeholder="escreva seu Email" required ><br><br>
+ 
+        <label for="idade" style="color: rgb(255, 255, 255);">Data de nascimento:</label>
+        <input type="date" id="idade" name="idade" placeholder="escreva sua idade" min="1" max="100"><br><br>
+ 
+        <label for="password" style="color: rgb(255, 255, 255);">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="escreva sua senha" required><br><br>
+ 
+        <label style="color: rgb(255, 255, 255);" >Escolha o gênero:</label><br>
+        <input style="color: rgb(255, 255, 255);" type="radio" id="masculino" name="genero" value="masculino">
+        <label style="color: rgb(255, 255, 255);" for="masculino">Masculino</label>
+        <input style="color: rgb(255, 255, 255);" type="radio" id="feminino" name="genero" value="feminino">
+        <label style="color: rgb(255, 255, 255);" for="feminino">Feminino</label> <br><br>
+ 
+ 
+ 
+ 
+<a href="https://www.youtube.com/watch?v=QseGE7bK-Cw&list=RDQseGE7bK-Cw&start_radio=1" target="_blank" style="color: rgb(255,255,255); text-decoration: underline;">
+        Assista ao vídeo no YouTube
+    </a>
+    <br><br>
+        <input type="submit" value="Enviar">
+ 
+<video controls width="250">
+ </fieldset>
+ 
+<source src="BK' - Universo ｜ O Líder em Movimento.mp4" type="video/mp4" /> <br> <BR>
+ 
+</video>
+ 
+ 
+ 
+ 
+ 
+ 
+  <img src="Prancheta-1.png" alt="Prancheta-1" />
+ 
+    </form>
+ 
+ 
+ 
+ 
+    <h3>Descrição:</h3>
+         <p>  Este site foi desenvolvido como parte de uma atividade proposta pelo
+            professor Jefferson Pereira Macena Marengo de Oliveira.
+             O objetivo principal é aplicar na prática os conteúdos estudados em sala de aula, através da criação de um formulário interativo.
+             A proposta busca estimular o aprendizado sobre desenvolvimento web, organização de dados e experiência do usuário, permitindo que os estudantes consolidem seus conhecimentos de forma prática e criativa.</p>
+ 
+</body>
+ 
+</html>
